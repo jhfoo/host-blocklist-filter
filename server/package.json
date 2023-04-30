@@ -1,0 +1,29 @@
+{
+  "name": "host-blocklist-filter",
+  "version": "1.0.0",
+  "description": "Allows overwrite of specific domains off the actively maintained blocklist",
+  "main": "index.js",
+  "scripts": {
+    "dev": "supervisor -n exit src/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhfoo/host-blocklist-filter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhfoo/host-blocklist-filter/issues"
+  },
+  "homepage": "https://github.com/jhfoo/host-blocklist-filter#readme",
+  "dependencies": {
+    "moleculer": "^0.14.29",
+    "moleculer-web": "^0.10.5"
+  },
+  "devDependencies": {
+    "axios": "^1.4.0",
+    "supervisor": "^0.12.0"
+  }
+}
